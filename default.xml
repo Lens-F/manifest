@@ -434,7 +434,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
+  
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
   <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
